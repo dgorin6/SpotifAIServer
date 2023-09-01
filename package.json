@@ -1,0 +1,21 @@
+{
+  "name": "spotifai_microservice",
+  "version": "1.0.0",
+  "description": "microservice for spotifai app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

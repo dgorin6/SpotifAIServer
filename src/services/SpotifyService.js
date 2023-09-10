@@ -44,7 +44,6 @@ async function getSongURI(title, artist, apiKey) {
 async function getSpotifyURIs(songs) {
     const uris = [];
     const access_token = await getSpotifyAccessToken(process.env.CLIENT_ID, process.env.CLIENT_SECRET)
-    console.log(access_token)
     const songValues = songs.split(',');
     for (let i = 0; i < songValues.length; i += 2) {
         const title = songValues[i];
